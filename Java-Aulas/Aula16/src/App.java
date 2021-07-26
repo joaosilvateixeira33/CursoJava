@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        int a = 0, b = 0, c = 0;
+        int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
         System.out.print("Digite 3 numeros: ");
         System.out.printf("Valor1: %d%nValor2: %d%nValor3: %d%n", a , b, c);
 

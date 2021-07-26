@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="Java-Projetos/ProjetoCalc-v1/src"/>
+	<classpathentry kind="src" path="Java-Aulas/Aula16/src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
