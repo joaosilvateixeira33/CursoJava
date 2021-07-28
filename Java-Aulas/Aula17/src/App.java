@@ -19,7 +19,14 @@ public class App {
         p = (yA + yB + yC)/2;
         double areaY = Math.sqrt(p*(p - yA)* (p - yB)* (p-yC));
 
+        System.out.printf("Area do triangulo X: %.4f%n",areaX);
+        System.out.printf("Area do triangulo Y: %.4f%n",areaY);
 
+        if(areaX > areaY){
+            System.out.print("A area maior é a area X");
+        }else{
+            System.out.print("A area maior é a area Y");
+        }
         sc.close();
     }
 }
